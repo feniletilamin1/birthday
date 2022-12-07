@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reseter.css">
+    <title>Пригласительная открытка</title>
+</head>
+<body>
+    <section class="birthday">
+        <div class="container">
+            <img src="bg/tape1.png" alt="" class="birthday__tape birthday__tape--1">
+            <img src="bg/tape2.png" alt="" class="birthday__tape birthday__tape--2">
+            <div class="birthday__wrapper">
+                <h1 class="birthday__title">Приглашение</h1>
+                <p class="birthday__text">Привет, Имя, приглашаю тебя на свой день рождения, празднование которого состоится</p>
+                <p class="birthday__text">16 декабря 2022 года</p>
+                <p class="birthday__text">в 20 часов 00 минут</p>
+                <p class="birthday__text">по адресу город Кулебаки, улица Совесткая дом №38</p>
+                <img src="bg/cake.png" alt="" class="birthday__cake">
+            </div>
+        </div>
+    </section>
+    <script src="js/confetti.min.js"></script>
+    <script>
+         const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 0); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+        };
+        start();
+    </script>
+    <img src="bg/decor1.png" alt="" class="birthday__decor birthday__decor--1">
+    <img src="bg/decor2.png" alt="" class="birthday__decor birthday__decor--2">
+</body>
+</html>

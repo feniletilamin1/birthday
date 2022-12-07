@@ -1,0 +1,227 @@
+
+
+@font-face {
+    font-family: 'MultiroundPro';
+    src: url('../fonts/MultiroundPro.otf');
+    font-weight: 400;
+}
+
+body {
+    background-color: rgb(247,228,223);
+}
+
+.birthday {
+    position: relative;;
+    padding-top: 190px;
+}
+
+.birthday__decor  {
+    width: 178px;
+    height: 176px;
+    position: absolute;
+    bottom: 0;
+}
+
+.birthday__decor--1 {
+    left: 0;
+}
+.birthday__decor--2 {
+    right: 0;
+}
+
+
+.birthday__tape {
+    width: 562px;
+    height: 219px;
+    position: absolute;
+}
+
+.birthday__tape--1 {
+    left: 0;
+    top: -55px;
+}
+
+.birthday__tape--2 {
+    right: 0;
+    top: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.birthday__wrapper {
+    text-align: center;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.birthday__title {
+    font-family: 'MultiroundPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 35px;
+    margin-bottom: 100px;
+    color: #DE6B59;
+}
+
+.birthday__cake {
+    margin-top: 80px;
+    width: 207px;
+    height: 217px;
+}
+
+.birthday__text {
+    font-family: 'MultiroundPro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    color: #103362;
+}
+
+@media (max-width:1250px) {
+    .container {
+        max-width: 810px;
+    }
+
+    .birthday__tape {
+        width: 488px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .container {
+        max-width: 730px;
+    }
+
+    .birthday__tape--1 {
+        left: 0;
+        top: -41px;
+    }
+
+    .birthday__tape {
+        width: 257px;
+        height: 149px;
+    }
+
+    .birthday__title {
+        font-size: 50px;
+        margin-bottom: 80px;
+    }
+
+    .birthday__text {
+        font-size: 22px;
+    }
+
+    .birthday {
+        padding-top: 154px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    body {
+        height: 100%;
+    }
+
+    .container{
+        max-width: 540px;
+    }
+
+    .birthday__tape {
+        width: 275px;
+        height: 115px;
+    }
+
+    .birthday__tape--1 {
+        left: 0;
+        top: -33px;
+    }
+    
+    .birthday__tape--2 {
+        right: 0;
+        top: 0;
+    }
+
+    .birthday__cake {
+        margin-top: 40px;
+        width: 150px;
+        height: 153px;
+    }
+
+    .birthday__decor {
+        width: 106px;
+        height: 127px;
+    }
+
+    .birthday {
+        padding-top: 139px;
+    }
+
+    .birthday__title {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .birthday__text {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 300px;
+    }
+
+    .birthday__tape--2 {
+        display: none;
+    }
+
+    .birthday__tape--1 {
+        left: 0;
+        top: -37px;
+    }
+
+    .birthday__tape {
+        width: 328px;
+        height: 148px;
+    }
+
+    .birthday__title {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .birthday__cake {
+        margin-top: 40px;
+        width: 140px;
+        height: 143px;
+    }
+    
+    .birthday__tape {
+        width: 306px;
+        height: 148px;
+    }
+
+    .birthday__text {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .birthday__decor {
+        width: 69px;
+        height: 78px;
+    }
+}
+
