@@ -85,6 +85,10 @@ body {
     color: #103362;
 }
 
+.birthday__text--nowrap {
+    white-space: nowrap;
+}
+
 @media (max-width:1250px) {
     .container {
         max-width: 810px;
@@ -127,10 +131,6 @@ body {
 }
 
 @media (max-width: 767px) {
-
-    body {
-        height: 100%;
-    }
 
     .container{
         max-width: 540px;
